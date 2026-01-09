@@ -1,0 +1,14 @@
+---
+title: "My Research Projects"
+listing:
+    contents: Research
+    sort: "date desc"
+    type: default
+    categories: false
+    sort-ui: true
+    filter-ui: true
+    page-size: 5
+page-layout: full
+title-block-banner: true  
+---
+

@@ -2,15 +2,17 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "Connie-Musisi-website"
+  title: "Connie Nakasi Musisi"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - projects.qmd
-
-
+      - text: "Home"
+        file: index.qmd
+      - text: "CV"
+        file: cv.qmd
+      - text: "Projects"
+        file: projects.qmd
+     # - text: "Interests"
+     #   file: interests.qmd
 format:
   html:
     theme:

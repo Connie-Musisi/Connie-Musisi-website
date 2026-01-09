@@ -1,7 +1,15 @@
 ---
-title: "Connie Nakasi Musisi"
+title: "Biostatistician"
+image: ConnieMusisiphoto.jpeg
+about: 
+  template: jolla
+  links: 
+    - icon: LinkedIn
+      text: LinkedIn
+      href: https://www.linkedin.com/in/connie-musisi-9bb17b14a/
+    - icon: GitHub
+      text: GitHub
+      href: https://github.com/Connie-Musisi
 ---
 
-I am a PhD researcher at Hasselt university Belgium focusing on microbiome data methodology. I also hold a master's degree in Statistics (Biostatistics) from the same university. 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
+I am a PhD researcher at Hasselt university Belgium focusing on microbiome data methodology. I also hold a master's degree in Statistics (Biostatistics) from the same university. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
