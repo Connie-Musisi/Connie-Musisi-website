@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Biostatistician",
+    "section": "",
+    "text": "I am a PhD researcher at Hasselt university Belgium focusing on microbiome data methodology. I also hold a master’s degree in Statistics (Biostatistics) from the same university. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Biostatistician",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "My Research Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nADATEST: An Adaptive Test for Differential Abundance in Microbiome Studies\n\n\n\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Research/ADATEST/index.html",
+    "href": "Research/ADATEST/index.html",
+    "title": "ADATEST: An Adaptive Test for Differential Abundance in Microbiome Studies",
+    "section": "",
+    "text": "This is a novel adaptive test for differential abundance analysis (DAA) using order statistics in microbiome studies when there are two groups. This method is designed to handle the complex characteristics of microbiome data, such as sparsity, compositionality, and overdispersion.\nThe algorithm involves the following three steps:\n\nCorrection for compositionality: The relative abundances of the original dataset are centered using the median log-fold change to remove compositional bias.\nConstruct a pseudo-dataset: Generate all unique taxa pairs from one group and use these to build a labeled training dataset for model fitting.\nEstimate scores from training data: Fit a linear model (Partial Least Squares) to the training dataset to learn taxon-level importance scores.\nCompute test statistics on the original data: Apply the estimated scores to the original dataset to compute test statistics and the p-values obtained from the permutation null distribution of the test statistics are adjusted to control the FDR.\n\nThe full manuscript can be found here. See: ADATEST R package"
+  },
+  {
+    "objectID": "Research/ADATEST/index.html#an-adaptive-test-for-differential-abundance-in-microbiome",
+    "href": "Research/ADATEST/index.html#an-adaptive-test-for-differential-abundance-in-microbiome",
+    "title": "ADATEST: An Adaptive Test for Differential Abundance in Microbiome Studies",
+    "section": "",
+    "text": "This is a novel adaptive test for differential abundance analysis (DAA) using order statistics in microbiome studies when there are two groups. This method is designed to handle the complex characteristics of microbiome data, such as sparsity, compositionality, and overdispersion.\nThe algorithm involves the following three steps:\n\nCorrection for compositionality: The relative abundances of the original dataset are centered using the median log-fold change to remove compositional bias.\nConstruct a pseudo-dataset: Generate all unique taxa pairs from one group and use these to build a labeled training dataset for model fitting.\nEstimate scores from training data: Fit a linear model (Partial Least Squares) to the training dataset to learn taxon-level importance scores.\nCompute test statistics on the original data: Apply the estimated scores to the original dataset to compute test statistics and the p-values obtained from the permutation null distribution of the test statistics are adjusted to control the FDR.\n\nThe full manuscript can be found here. See: ADATEST R package"
+  },
+  {
+    "objectID": "Research/ADATEST/index.html#overview",
+    "href": "Research/ADATEST/index.html#overview",
+    "title": "ADATEST: An Adaptive Test for Differential Abundance in Microbiome Studies",
+    "section": "",
+    "text": "This is a novel adaptive test for differential abundance analysis (DAA) using order statistics in microbiome studies when there are two groups. This method is designed to handle the complex characteristics of microbiome data, such as sparsity, compositionality, and overdispersion.\nThe algorithm involves the following three steps:\n\nCorrection for compositionality: The relative abundances of the original dataset are centered using the median log-fold change to remove compositional bias.\nConstruct a pseudo-dataset: Generate all unique taxa pairs from one group and use these to build a labeled training dataset for model fitting.\nEstimate scores from training data: Fit a linear model (Partial Least Squares) to the training dataset to learn taxon-level importance scores.\nCompute test statistics on the original data: Apply the estimated scores to the original dataset to compute test statistics and the p-values obtained from the permutation null distribution of the test statistics are adjusted to control the FDR.\n\nThe full manuscript can be found here. See: ADATEST R package"
+  }
+]

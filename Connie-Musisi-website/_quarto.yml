@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Connie Nakasi Musisi"
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "CV"
+        file: cv.qmd
+      - text: "Projects"
+        file: projects.qmd
+     # - text: "Interests"
+     #   file: interests.qmd
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
